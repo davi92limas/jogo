@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body {
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background: #FFF;
+    box-shadow: 0 .2rem .4rem  rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+/*screen1*/
+h1{
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+    color: #34355B;
+}
+
+p{
+    color: rgba(52, 53, 91, 0.80);
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
+    background-color: #DCE2E9;
+    width: 6.2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}/* remover as setas do input*/
+
+button {
+    color:#FFF;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    background:#7879F1;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background:#6161c7;
+}
+
+/*Screen 2*/
+
+.btn2{
+    border-radius: 0.25rem;
+}
